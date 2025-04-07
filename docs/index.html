@@ -9,8 +9,10 @@
 <body>
     <p>Si no eres redirigido automáticamente, haz clic <a href="https://www.facebook.com/CMLP51/">aquí</a>.</p>
     <script>
-        // Redireccionamiento en JavaScript por si el meta no funciona
-        window.location.href = "https://www.facebook.com/CMLP51/";
+        // Espera de 4 segundos antes de redirigir
+        setTimeout(function() {
+            window.location.href = "https://www.facebook.com/CMLP51/";
+        }, 4000); // 4000 ms = 4 segundos
     </script>
 </body>
 </html>
